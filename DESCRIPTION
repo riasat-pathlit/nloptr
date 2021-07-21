@@ -40,3 +40,4 @@ LazyLoad: yes
 NeedsCompilation: yes
 VignetteBuilder: knitr
 RoxygenNote: 6.1.0
+Encoding: UTF-8
