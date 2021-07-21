@@ -3,7 +3,7 @@ rm(list = ls())
 set.seed(2020)
 
 iN <- 3
-pDb <- "../1-price-database/m-px-db.csv"
+pDb <- "../../../ntu-pre-phd/1-price-database/m-px-db.csv"
 iDb <- timeSeries::readSeries(pDb, sep = ",", format = "%Y-%m-%d")
 iTs <- iDb[, seq(iN)]
 
