@@ -4,8 +4,18 @@
 \alias{mma}
 \title{Method of Moving Asymptotes}
 \usage{
-mma(x0, fn, gr = NULL, lower = NULL, upper = NULL, hin = NULL,
-  hinjac = NULL, nl.info = FALSE, control = list(), ...)
+mma(
+  x0,
+  fn,
+  gr = NULL,
+  lower = NULL,
+  upper = NULL,
+  hin = NULL,
+  hinjac = NULL,
+  nl.info = FALSE,
+  control = list(),
+  ...
+)
 }
 \arguments{
 \item{x0}{starting point for searching the optimum.}
