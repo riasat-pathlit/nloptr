@@ -4,8 +4,15 @@
 \alias{sbplx}
 \title{Subplex Algorithm}
 \usage{
-sbplx(x0, fn, lower = NULL, upper = NULL, nl.info = FALSE,
-  control = list(), ...)
+sbplx(
+  x0,
+  fn,
+  lower = NULL,
+  upper = NULL,
+  nl.info = FALSE,
+  control = list(),
+  ...
+)
 }
 \arguments{
 \item{x0}{starting point for searching the optimum.}

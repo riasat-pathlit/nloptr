@@ -4,8 +4,15 @@
 \alias{neldermead}
 \title{Nelder-Mead Simplex}
 \usage{
-neldermead(x0, fn, lower = NULL, upper = NULL, nl.info = FALSE,
-  control = list(), ...)
+neldermead(
+  x0,
+  fn,
+  lower = NULL,
+  upper = NULL,
+  nl.info = FALSE,
+  control = list(),
+  ...
+)
 }
 \arguments{
 \item{x0}{starting point for searching the optimum.}

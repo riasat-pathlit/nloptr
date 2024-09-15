@@ -4,4 +4,7 @@
 \.Rprofile
 \.gitignore
 .travis.yml
+workbench.R
+workbench.c
+a.out
 TODO

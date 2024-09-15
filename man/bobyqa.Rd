@@ -4,8 +4,15 @@
 \alias{bobyqa}
 \title{Bound Optimization by Quadratic Approximation}
 \usage{
-bobyqa(x0, fn, lower = NULL, upper = NULL, nl.info = FALSE,
-  control = list(), ...)
+bobyqa(
+  x0,
+  fn,
+  lower = NULL,
+  upper = NULL,
+  nl.info = FALSE,
+  control = list(),
+  ...
+)
 }
 \arguments{
 \item{x0}{starting point for searching the optimum.}

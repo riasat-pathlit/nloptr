@@ -4,9 +4,19 @@
 \alias{nloptr}
 \title{R interface to NLopt}
 \usage{
-nloptr(x0, eval_f, eval_grad_f = NULL, lb = NULL, ub = NULL,
-  eval_g_ineq = NULL, eval_jac_g_ineq = NULL, eval_g_eq = NULL,
-  eval_jac_g_eq = NULL, opts = list(), ...)
+nloptr(
+  x0,
+  eval_f,
+  eval_grad_f = NULL,
+  lb = NULL,
+  ub = NULL,
+  eval_g_ineq = NULL,
+  eval_jac_g_ineq = NULL,
+  eval_g_eq = NULL,
+  eval_jac_g_eq = NULL,
+  opts = list(),
+  ...
+)
 }
 \arguments{
 \item{x0}{vector with starting values for the optimization.}

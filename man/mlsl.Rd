@@ -4,8 +4,18 @@
 \alias{mlsl}
 \title{Multi-level Single-linkage}
 \usage{
-mlsl(x0, fn, gr = NULL, lower, upper, local.method = "LBFGS",
-  low.discrepancy = TRUE, nl.info = FALSE, control = list(), ...)
+mlsl(
+  x0,
+  fn,
+  gr = NULL,
+  lower,
+  upper,
+  local.method = "LBFGS",
+  low.discrepancy = TRUE,
+  nl.info = FALSE,
+  control = list(),
+  ...
+)
 }
 \arguments{
 \item{x0}{initial point for searching the optimum.}

@@ -5,11 +5,27 @@
 \alias{directL}
 \title{DIviding RECTangles Algorithm for Global Optimization}
 \usage{
-direct(fn, lower, upper, scaled = TRUE, original = FALSE,
-  nl.info = FALSE, control = list(), ...)
+direct(
+  fn,
+  lower,
+  upper,
+  scaled = TRUE,
+  original = FALSE,
+  nl.info = FALSE,
+  control = list(),
+  ...
+)
 
-directL(fn, lower, upper, randomized = FALSE, original = FALSE,
-  nl.info = FALSE, control = list(), ...)
+directL(
+  fn,
+  lower,
+  upper,
+  randomized = FALSE,
+  original = FALSE,
+  nl.info = FALSE,
+  control = list(),
+  ...
+)
 }
 \arguments{
 \item{fn}{objective function that is to be minimized.}

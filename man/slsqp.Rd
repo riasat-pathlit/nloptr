@@ -4,9 +4,20 @@
 \alias{slsqp}
 \title{Sequential Quadratic Programming (SQP)}
 \usage{
-slsqp(x0, fn, gr = NULL, lower = NULL, upper = NULL, hin = NULL,
-  hinjac = NULL, heq = NULL, heqjac = NULL, nl.info = FALSE,
-  control = list(), ...)
+slsqp(
+  x0,
+  fn,
+  gr = NULL,
+  lower = NULL,
+  upper = NULL,
+  hin = NULL,
+  hinjac = NULL,
+  heq = NULL,
+  heqjac = NULL,
+  nl.info = FALSE,
+  control = list(),
+  ...
+)
 }
 \arguments{
 \item{x0}{starting point for searching the optimum.}
